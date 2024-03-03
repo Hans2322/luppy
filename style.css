@@ -1,0 +1,101 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.container-navbar {
+  background-color: black;
+  width: 100%;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  list-style: none;
+  padding: 20px;
+  margin: 5px;
+  color: #212a3e;
+  font-size: 30px;
+}
+
+.li-navbar:hover {
+  background-color: #374259;
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.2s;
+  border-radius: 0.3s;
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.a-content {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  width: 720px;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 80px;
+}
+
+.container-content {
+  height: 80vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-content {
+  width: 50%;
+  height: 50%;
+}
+
+.container-footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.h1-footer {
+  font-size: 20px;
+  background-color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+/* Gaya CSS untuk perangkat mobile */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
